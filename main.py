@@ -41,8 +41,11 @@ if(app_mode=="Home"):
         
 elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
-    st.text("1. Putri Wahyuni Sanjaya  (Universitas Nahdlatul Wathan Mataram")
+    st.text("1. Putri Wahyuni Sanjaya  (Universitas Nahdlatul Wathan Mataram)")
     image_path = "Anggota/Putri Wahyuni Sanjaya.jpg"
+    st.image(image_path, width=100) 
+    st.text("2. Elis Shofiyatul Wasilah (Universitas Lambung Mangkurat)")
+    image_path = "Anggota/Elis Shofiyatul Wasilah.jpg"
     st.image(image_path, width=100) 
         
 #About Project
