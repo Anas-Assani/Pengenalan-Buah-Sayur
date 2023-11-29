@@ -1,4 +1,3 @@
-from PIL import image
 import streamlit as st
 import tensorflow as tf
 import numpy as np
@@ -44,7 +43,8 @@ elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
     # image_path = "Anggota\Putri Wahyuni Sanjaya.jpg"
     # st.image(image_path, width=100)
-    image_path = Image.open('Anggota/Putri Wahyuni Sanjaya.jpg')
+    image = Image.open('Putri Wahyuni Sanjaya.jpg')
+    st.image(image, caption='Teks deskripsi gambar')
     st.text("1. Putri Wahyuni Sanjaya \n(Universitas Nahdlatul Wathan Mataram)\n")
     # image_path = "Anggota\Elis Shofiyatul Wasilah.jpg"
     # st.image(image_path, width=100)
