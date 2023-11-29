@@ -2,3 +2,11 @@ numpy==1.26.2
 streamlit==1.28.2
 tensorflow==2.15.0
 tensorflow_intel==2.15.0
+tensorflow-io-gcs-filesystem==0.31.0
+wheel==0.42.0
+keras==2.15.0
+keras-nightly==2.5.0.dev2021032900
+Keras-Preprocessing==1.1.2
+pandas==1.4.2
+Pillow==8.4.0
+pip==23.3.1
