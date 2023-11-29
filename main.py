@@ -13,11 +13,11 @@ def model_prediction(test_image):
     return np.argmax(predictions) #return index of max element
 
 #Sidebar
-#st.sidebar.title("Dashboard")
-#app_mode = st.sidebar.selectbox("Select Page",["Home","Tentang Project"])
+st.sidebar.title("Dashboard")
+app_mode = st.sidebar.selectbox("Select Page",["Home","Tentang Project"])
 
 #Main Page
-#if(app_mode=="Home"):
+if(app_mode=="Home"):
     st.header("SISTEM PENGENALAN BUAH & SAYUR")
     image_path = "header.jpg"
     st.image(image_path)
@@ -40,7 +40,7 @@ def model_prediction(test_image):
         st.success("Ini adalah {}".format(label[result_index]))
 
 #About Project
-#elif(app_mode=="Tentang Project"):
+elif(app_mode=="Tentang Project"):
     st.header("Tentang Project")
     st.subheader("Anggota Kelompok:")
     image_path = "Anggota\Putri Wahyuni Sanjaya.jpg"
