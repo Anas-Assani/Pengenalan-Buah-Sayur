@@ -14,7 +14,7 @@ def model_prediction(test_image):
 
 #Sidebar
 st.sidebar.title("Dashboard")
-app_mode = st.sidebar.selectbox("Select Page",["Home","Tentang Project"])
+app_mode = st.sidebar.selectbox("Select Page",["Home","Anggota Kelompok","Tentang Project"])
 
 #Main Page
 if(app_mode=="Home"):
@@ -38,10 +38,8 @@ if(app_mode=="Home"):
         for i in content:
             label.append(i[:-1])
         st.success("Ini adalah {}".format(label[result_index]))
-
-#About Project
-elif(app_mode=="Tentang Project"):
-    st.header("Tentang Project")
+        
+elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
     image_path = "Anggota\Putri Wahyuni Sanjaya.jpg"
     st.image(image_path, width=100)
@@ -58,6 +56,10 @@ elif(app_mode=="Tentang Project"):
     image_path = "Anggota\\Nur Zaini Khafid.jpg"
     st.image(image_path, width=100)
     st.text("5. Nur Zaini Khafid \n(Universitas Lambung Mangkurat)\n")
+#About Project
+elif(app_mode=="Tentang Project"):
+    st.header("Tentang Project")
+   
     st.subheader("Tentang Dataset")
     st.text("Dataset Meliputi:")
     st.code("Buah - pisang, apel, pear, anggur, jeruk, kiwi, semangka, delima, nanas, mangga.")
