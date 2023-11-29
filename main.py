@@ -42,7 +42,7 @@ if(app_mode=="Home"):
 elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
     image_path = "Anggota\Putri Wahyuni Sanjaya.jpg"
-    st.image(image_path)
+    st.image(image_path, width=100)
     st.text("1. Putri Wahyuni Sanjaya \n(Universitas Nahdlatul Wathan Mataram)\n")
     # image_path = "Anggota\Elis Shofiyatul Wasilah.jpg"
     # st.image(image_path, width=100)
