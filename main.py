@@ -41,21 +41,24 @@ if(app_mode=="Home"):
         
 elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
-    image_path = "Anggota\Putri Wahyuni Sanjaya.jpg"
-    st.image(image_path, width=100)
+    # image_path = "Anggota\Putri Wahyuni Sanjaya.jpg"
+    # st.image(image_path, width=100)
+    image1 = Image.open('Anggota\Putri Wahyuni Sanjaya.jpg')
     st.text("1. Putri Wahyuni Sanjaya \n(Universitas Nahdlatul Wathan Mataram)\n")
-    image_path = "Anggota\Elis Shofiyatul Wasilah.jpg"
-    st.image(image_path, width=100)
+    # image_path = "Anggota\Elis Shofiyatul Wasilah.jpg"
+    # st.image(image_path, width=100)
+     image2 = Image.open('Anggota\Elis Shofiyatul Wasilah.jpg')
     st.text("2. Elis Shofiyatul Wasilah \n(Universitas Lambung Mangkurat)\n")
-    image_path = "Anggota\Tri Noviyansyah.jpg"
-    st.image(image_path, width=100)
+    # image_path = "Anggota\Tri Noviyansyah.jpg"
+    # st.image(image_path, width=100)
     st.text("3. Tri Noviyansyah \n(Universitas Borneo Tarakan)\n")
-    image_path = "Anggota\Anis Fadhil Faisal.jpg"
-    st.image(image_path, width=100)
+    # image_path = "Anggota\Anis Fadhil Faisal.jpg"
+    # st.image(image_path, width=100)
     st.text("4. Anis Fadhil Faisal Rahmatillah \n(Universitas Lambung Mangkurat)\n")
-    image_path = "Anggota\\Nur Zaini Khafid.jpg"
-    st.image(image_path, width=100)
+    # image_path = "Anggota\\Nur Zaini Khafid.jpg"
+    # st.image(image_path, width=100)
     st.text("5. Nur Zaini Khafid \n(Universitas Lambung Mangkurat)\n")
+    
 #About Project
 elif(app_mode=="Tentang Project"):
     st.header("Tentang Project")
