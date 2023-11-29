@@ -43,11 +43,11 @@ elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
     # image_path = "Anggota\Putri Wahyuni Sanjaya.jpg"
     # st.image(image_path, width=100)
-    image1 = Image.open('Anggota\Putri Wahyuni Sanjaya.jpg')
+    image1 = Image.open('Putri Wahyuni Sanjaya.jpg')
     st.text("1. Putri Wahyuni Sanjaya \n(Universitas Nahdlatul Wathan Mataram)\n")
     # image_path = "Anggota\Elis Shofiyatul Wasilah.jpg"
     # st.image(image_path, width=100)
-    image2 = Image.open('Anggota\Elis Shofiyatul Wasilah.jpg')
+    image2 = Image.open('Elis Shofiyatul Wasilah.jpg')
     st.text("2. Elis Shofiyatul Wasilah \n(Universitas Lambung Mangkurat)\n")
     # image_path = "Anggota\Tri Noviyansyah.jpg"
     # st.image(image_path, width=100)
