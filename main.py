@@ -42,7 +42,7 @@ if(app_mode=="Home"):
 elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
     st.text("1. train => (terdiri dari 36 folder dengan masing-masing 100 gambar di dalamnya)")
-        image_path = "header.jpg"
+        image_path = "Anggota/Nur.jpg"
         st.image(image_path, width=100)
         
 #About Project
