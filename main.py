@@ -50,10 +50,10 @@ elif(app_mode=="Anggota Kelompok"):
     image_path = "Anggota\Tri Noviyansyah.jpg"
     st.image(image_path, width=100)
     st.text("3. Tri Noviyansyah \n(Universitas Borneo Tarakan)\n")
-    image_path = "Anggota\\Anis Fadhil Faisal.jpg"
+    image_path = "Anggota\Anis Fadhil Faisal.jpg"
     st.image(image_path, width=100)
     st.text("4. Anis Fadhil Faisal Rahmatillah \n(Universitas Lambung Mangkurat)\n")
-    image_path = "Anggota\\Nur Zaini Khafid.jpg"
+    image_path = "Anggota\Nur Zaini Khafid.jpg"
     st.image(image_path, width=100)
     st.text("5. Nur Zaini Khafid \n(Universitas Lambung Mangkurat)\n")
 #About Project
