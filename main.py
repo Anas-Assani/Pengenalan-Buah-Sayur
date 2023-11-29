@@ -41,16 +41,16 @@ if(app_mode=="Home"):
         
 elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
-    image_path = "Anggota\\Putri Wahyuni Sanjaya.jpg"
+    image_path = "Anggota\Putri Wahyuni Sanjaya.jpg"
     st.image(image_path, width=100)
     st.text("1. Putri Wahyuni Sanjaya \n(Universitas Nahdlatul Wathan Mataram)\n")
-    image_path = "Anggota\\Elis Shofiyatul Wasilah.jpg"
+    image_path = "Anggota\Elis Shofiyatul Wasilah.jpg"
     st.image(image_path, width=100)
     st.text("2. Elis Shofiyatul Wasilah \n(Universitas Lambung Mangkurat)\n")
-    image_path = "Anggota\\Tri Noviyansyah.jpg"
+    image_path = "Anggota\Tri Noviyansyah.jpg"
     st.image(image_path, width=100)
     st.text("3. Tri Noviyansyah \n(Universitas Borneo Tarakan)\n")
-    image_path = "Anggota\\Anis Fadhil Faisal.jpg"
+    image_path = "Anggota\Anis Fadhil Faisal.jpg"
     st.image(image_path, width=100)
     st.text("4. Anis Fadhil Faisal Rahmatillah \n(Universitas Lambung Mangkurat)\n")
     image_path = "Anggota\\Nur Zaini Khafid.jpg"
