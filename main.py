@@ -47,13 +47,16 @@ elif(app_mode=="Anggota Kelompok"):
     st.text("2. Elis Shofiyatul Wasilah (Universitas Lambung Mangkurat)")
     image_path = "Anggota/Elis Shofiyatul Wasilah.jpg"
     st.image(image_path, width=100) 
-    st.text("3. Tri Noviyansyah \n(Universitas Borneo Tarakan)")
+    st.text("3. Tri Noviyansyah (Universitas Borneo Tarakan)")
     image_path = "Anggota/Tri Noviyansyah.jpg"
     st.image(image_path, width=100) 
-    st.text("4. Anis Fadhil Faisal Rahmatillah \n(Universitas Lambung Mangkurat)")
+    st.text("4. Anis Fadhil Faisal Rahmatillah (Universitas Lambung Mangkurat)")
     image_path = "Anggota/Anis Fadhil Faisal.jpg"
     st.image(image_path, width=100) 
-        
+    st.text("5. Nur Zaini Khafid (Universitas Lambung Mangkurat)")
+    image_path = "Anggota//Nur Zaini Khafid.jpg"
+    st.image(image_path, width=100) 
+    
 #About Project
 elif(app_mode=="Tentang Project"):
     st.header("Tentang Project")
