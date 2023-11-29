@@ -42,13 +42,12 @@ if(app_mode=="Home"):
 elif(app_mode=="Anggota Kelompok"):
     st.subheader("Anggota Kelompok:")
     st.text("1. train => (terdiri dari 36 folder dengan masing-masing 100 gambar di dalamnya)")
-    image_path = "header.jpg"
-    st.image(image_path, width=100)
-    
+        image_path = "header.jpg"
+        st.image(image_path, width=100)
+        
 #About Project
 elif(app_mode=="Tentang Project"):
     st.header("Tentang Project")
-   
     st.subheader("Tentang Dataset")
     st.text("Dataset Meliputi:")
     st.code("Buah - pisang, apel, pear, anggur, jeruk, kiwi, semangka, delima, nanas, mangga.")
